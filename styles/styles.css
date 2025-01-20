@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.body{
+    max-width: 1440px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.div-button{
+    display: flex;
+    justify-items: center;
+}
+
+.ul{
+    list-style: none;
+}
+
+.list{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.span-1{
+    color: orange;
+}
+.span-2{
+    color: skyblue;
+}
+.span-3{
+    color: #05D4DF;
+}
+.span-4{
+    color: #5D58EF;
+}
+
+.btr{
+    padding: 10px 60.5px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.hambarger > div{
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    margin: 3px 0;
+}
+
+.hambarger{
+    display: none;
+}
+
+.navv{
+    border: 1px solid orange;
+}
+
+.hr{
+    display: none;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-1{
+    max-width: 640px;
+    /* height: 331px; */
+}
+
+.head-2{
+    /* text-align: justify; */
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.para-1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.btr-2{
+    padding: 10px 47px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-1{
+    max-width: 468.61px;
+    height: 575px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .school,
+    .header-2,
+    .ul,
+    .btr{
+        display: none;
+    }
+
+    .hambarger{
+        display: flex;
+        flex-direction: column;
+        padding: 27.5px 19.75px 27.5px 347.75px;
+    }
+
+    .hr{
+        display: flex;
+        border-bottom: 1px solid orange;
+        margin-bottom: 28px;
+    }
+
+    .section-1{
+        flex-direction: column-reverse;
+    }
+    .section-1,
+    .div-1,
+    .head-2,
+    .para-1,
+    .btr-2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
