@@ -7,7 +7,8 @@
   }
 
 .body{
-    max-width: 1440px;
+    max-width: 1152px;
+    margin: 0px auto;
 }
 
 .header{
@@ -33,6 +34,10 @@
 }
 
 .ul{
+    list-style: none;
+}
+
+.ul-2{
     list-style: none;
 }
 
@@ -191,7 +196,95 @@
 .img{
     width: 60px;
     height: 60px;
+    margin-bottom: 60px;
 }
+
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 19px;
+    margin-bottom: 80px;
+}
+
+.sec-3{
+    margin-top: 60px;
+    background-image: url(../assets/bg.png);
+    background-image: linear-gradient(white , #FEA301);
+}
+
+.our-series{
+    font-size: 2.87rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.sec-3-div-1{
+    background-color: white;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.immg{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+/*  */
+
+.main{
+    background-color: #01a9fd8f;
+    color: white;
+    padding: 123px 228.09px 100px 140px;
+}
+
+.main-h-3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-h-4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-div-2{
+    display: flex;
+    align-items: center; 
+}
+
+.main-para{
+    max-width: 400px;
+}
+
+.main-list{
+    text-decoration: none;
+    color: white;
+}
+
+.listt{
+    margin-bottom: 22px;
+}
+
+marquee{
+    height: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+
+
 
 
 
@@ -238,6 +331,26 @@
 
     .div-2{
         flex-direction: column;
+    }
+
+    .main-div,
+    .main-list,
+    .ul-2{
+        display:inline;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .main-div-2{
+        display: flex;
+    }
+
+    .main{
+        padding: 60px 20px;
+    }
+
+    marquee{
+        margin-top: 20px;
     }
 
 }
