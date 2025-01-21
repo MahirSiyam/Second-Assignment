@@ -198,39 +198,67 @@
     height: 60px;
     margin-bottom: 60px;
 }
+/*  */
 
 .section-3{
+    background-image: linear-gradient(white, rgba(254, 163, 1, 30%));
+}
+
+.divi{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 19px;
-    margin-bottom: 80px;
+    row-gap: 19px;
+    margin-bottom: 60px;
+}
+.divi-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 18px;
+    row-gap: 18px;
+    margin-bottom: 60px;
 }
 
-.sec-3{
-    margin-top: 60px;
-    background-image: url(../assets/bg.png);
-    background-image: linear-gradient(white , #FEA301);
-}
-
-.our-series{
-    font-size: 2.87rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.sec-3-div-1{
-    background-color: white;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;
-}
-
-.immg{
+.story-img{
+    width: 100%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
+.story-img-2{
+    width: 100%;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
 
-/*  */
+.content{
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;  
+    padding: 35px 68px 30px 35px;
+    margin-top: -5px;
+}
+.content-2{
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;  
+    padding: 33px 68px 25px 30px;
+    margin-top: -5px;
+}
+
+.date{
+    padding: 15px 19px;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    border: none;
+    position: absolute;
+    margin-top: -55px;
+    color: white;
+}
+
+.d-2{
+    background-color: #95B226;
+}
+
 
 .main{
     background-color: #01a9fd8f;
@@ -279,6 +307,39 @@ marquee{
     color: black;
 }
 
+.btr-3{
+    padding: 10px 47px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.body-2{
+    max-width: 1152px;
+    margin: 0px auto;
+    text-align: center;
+}
+.body-3{
+    max-width: 1152px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.paraa{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.paraaa{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+}
+
 
 
 
@@ -297,7 +358,8 @@ marquee{
     .header-2,
     .ul,
     .btr,
-    .img{
+    .img,
+    .first{
         display: none;
     }
 
@@ -352,5 +414,13 @@ marquee{
     marquee{
         margin-top: 20px;
     }
+
+    .divi-2
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
 
 }
