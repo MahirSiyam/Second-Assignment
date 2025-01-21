@@ -96,11 +96,10 @@
 
 .div-1{
     max-width: 640px;
-    /* height: 331px; */
+
 }
 
 .head-2{
-    /* text-align: justify; */
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 24px;
@@ -241,7 +240,7 @@
     background-color: #FFFFFF;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;  
-    padding: 33px 68px 25px 30px;
+    padding: 32px 23px 23px 23px;
     margin-top: -5px;
 }
 
@@ -336,6 +335,7 @@ marquee{
 .paraa{
     font-size: 1rem;
     font-weight: bold;
+    /* text-align: left; */
 }
 
 .paraaa{
@@ -427,7 +427,11 @@ marquee{
     {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        width: 93.2vw;
+        width: 94vw;
+    }
+
+    .content-2{
+        padding: 35px 15px 15px 15px;
     }
 
     
