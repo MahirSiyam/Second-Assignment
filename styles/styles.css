@@ -259,6 +259,10 @@
     background-color: #95B226;
 }
 
+.d-3{
+    background-color: brown;
+}
+
 
 .main{
     background-color: #01a9fd8f;
@@ -363,6 +367,10 @@ marquee{
         display: none;
     }
 
+    .image-1{
+        max-width: 100%;
+    }
+
     .hambarger{
         display: flex;
         flex-direction: column;
@@ -419,6 +427,7 @@ marquee{
     {
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        width: 93.2vw;
     }
 
     
